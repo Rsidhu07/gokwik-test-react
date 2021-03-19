@@ -1,38 +1,95 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+  font-family: "Poppins", sans-serif;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  position: relative;
+}
+
+/* background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center; */
+
+.background-1{
+  flex: 1;
+  background: linear-gradient(to right top, #4679a3, #7798df);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.background-2{
+  flex: 2;
+  background: linear-gradient(to right top, #d9e1e7, #b8caf0);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
-.App-link {
-  color: #61dafb;
+.card{
+  position: absolute;
+  width: 60%;
+  height: 30%;
+  z-index: 2;
+  background: linear-gradient(to right top, #f2f4f5, #9fa8bb);
+  border-radius: 1rem;
+  top: 21%;
+  left: 19%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+h1 {
+  color: #426696;
+  font-weight: 600;
+  font-size: 3rem;
+  opacity: 0.8;
+}
+h2{
+  background: -webkit-linear-gradient(45deg,rgb(228, 126, 95), rgb(231, 174, 18));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 500;
+}
+
+h3 {
+  color: #222427;
+  font-weight: 600;
+  opacity: 0.8;
+}
+
+a{
+  color: #426696;
+  font-weight: 600;
+  opacity: 0.8;
+}
+
+p {
+  background-color: #f3ec78;
+  font-weight: 500;
+  font-size: 2rem;
+  background: -webkit-linear-gradient(60deg,rgb(228, 126, 95), rgb(231, 174, 18));
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+}
+
+
+@media only screen and (max-width: 600px){
+  .card{
+    width: 80%;
+    left: 10%;
+    height: 25%;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+@media only screen and (min-width: 600px) and (max-width: 768px){
+  .card{
+    width: 80%;
+    left: 10%;
+    height: 21%;
   }
 }

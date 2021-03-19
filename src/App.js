@@ -1,23 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
+import InputView from './Components/InputView/InputView';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="background-1">
+        <h3>Man Matters</h3>
+        <h2>Congratulations</h2>
+      </div>
+      <div className="background-2">
+        <InputView/>
+      </div>
+      <div className='card'>
+        <h3>Paytm</h3>
+        <p>Gift Card ₹200 </p>
+      </div>
     </div>
   );
 }
