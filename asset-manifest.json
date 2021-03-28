@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/gokwik-test-react/static/css/main.bc923ab2.chunk.css",
+    "main.js": "/gokwik-test-react/static/js/main.d7ab48cf.chunk.js",
+    "main.js.map": "/gokwik-test-react/static/js/main.d7ab48cf.chunk.js.map",
+    "runtime-main.js": "/gokwik-test-react/static/js/runtime-main.c5af7bb0.js",
+    "runtime-main.js.map": "/gokwik-test-react/static/js/runtime-main.c5af7bb0.js.map",
+    "static/js/2.79ab442a.chunk.js": "/gokwik-test-react/static/js/2.79ab442a.chunk.js",
+    "static/js/2.79ab442a.chunk.js.map": "/gokwik-test-react/static/js/2.79ab442a.chunk.js.map",
+    "index.html": "/gokwik-test-react/index.html",
+    "static/css/main.bc923ab2.chunk.css.map": "/gokwik-test-react/static/css/main.bc923ab2.chunk.css.map",
+    "static/js/2.79ab442a.chunk.js.LICENSE.txt": "/gokwik-test-react/static/js/2.79ab442a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c5af7bb0.js",
+    "static/js/2.79ab442a.chunk.js",
+    "static/css/main.bc923ab2.chunk.css",
+    "static/js/main.d7ab48cf.chunk.js"
+  ]
+}
